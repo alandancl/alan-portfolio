@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+/* ================ INTRO ================ */
+
+.intro {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1F1D2C;
+}
+
+/* ================ MENU ================ */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    /*position: relative;
+    padding: 5px 0;*/
+}
+
+nav ul li a:hover {
+    color: #F1A600;
+} 
+
+/* ================ CONTENT ================ */
+
+.row {
+    display: flex;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.content .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.content h1 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content h1 span {
+    color: #F1A600;
+}
+
+.content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    background-color: #F1A600;
+    border: 2px solid #F1A600;
+    margin: auto;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: #F1A600;
+}
+
+.btn-social {
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    border: 2px solid #F1A600;
+    margin: 15px 20px;   
+}
+
+.btn-social:hover {
+    background-color: #F1A600;
+    border-color: #F1A600;
+}
+
+
+/* ================ ABOUT ================ */
+
+.about {
+    font-size: 18px;
+    width: 100%;
+    background-color: #242635;
+}
+
+.about figure {
+    text-align: center;
+    display: inline-block;
+}
+
+.about figure img {
+    width: 80px;
+}
+
+.about figure p {
+    font-size: 16px;
+}
+
+/* ================ EXPERIENCE ================ */
+
+.experience {
+    width: 100%;
+    background-color: #1F1D2C;
+}
+
+/* ================ SKILLS ================ */
+
+.skills {
+    width: 100%;
+    background-color: #242635;
+}
+
+/* ================ PORTFOLIO ================ */
+
+.portfolio {
+    width: 100%;
+    background-color: #1F1D2C;
+}
+
+/* ================ CONTACT ================ */
+
+.contact {
+    width: 100%;
+    background-color: #242635;
+}

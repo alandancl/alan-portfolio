@@ -1,0 +1,89 @@
+.parent {
+    height: 100px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.p-relative {
+    position: relative;
+}
+
+/* de abajo hacia arriba */
+/*
+.p-absolute {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.parent:hover .p-absolute{
+    top: 0;
+    transition: top 2s;
+}*/
+
+/* de arriba hacia abajo */
+/*
+.p-absolute {
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    right: 0;
+    left: 0;
+}
+
+.parent:hover .p-absolute{
+    bottom: 0;
+    transition: bottom 2s;
+}
+*/
+
+/* de derecha hacia izquierda */
+/*
+.p-absolute {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+}
+
+.parent:hover .p-absolute{
+    right: 0;
+    transition: right 4s;
+}
+*/
+
+/* de izquierda hacia derecha */
+/*
+.p-absolute {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 100%;
+}
+
+.parent:hover .p-absolute{
+    left: 0;
+    transition: left 4s;
+}
+*/
+
+
+
+/* Hacer transiciones */
+/* De derecha a izquierda */
+/* De arriba hacia abajo */
+/* De izquierda a derecha */
